@@ -6,6 +6,7 @@ var swiper = new Swiper('.swiper-container', {
       },
       speed: 2000,
       initialSlide: 1,
+      freeMode: true,
       grabCursor: true,
       parallax: true,
       navigation: {
