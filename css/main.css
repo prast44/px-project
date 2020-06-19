@@ -365,11 +365,11 @@ a.menu-nav{
     line-height: 10px;
   }
   .parallax-bg h1 {
-    font-size: 64px;
-    mix-blend-mode: normal;
+    font-size: 96px;
+    /*mix-blend-mode: normal;*/
     /*color: #fff;*/
     position: absolute;
-    bottom: 80px;
+    /*bottom: 80px;*/
   }
   .cursor{
     display: none;
