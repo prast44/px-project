@@ -33,6 +33,7 @@ var swiper = new Swiper('.swiper-container', {
 
   swiper.on('slideChange', function () {
     $(".main-nav > a").removeClass("active");
+    
     if(swiper.realIndex == 0){
       $("#link-about").addClass("active")
     }
@@ -44,6 +45,11 @@ var swiper = new Swiper('.swiper-container', {
     }
     if(swiper.realIndex == 7){
       $("#link-contact").addClass("active")
+    }
+    if(swiper.realIndex != 1){
+      $(".astro").addClass("disappear")
+    } else {
+      $(".astro").removeClass("disappear");
     }
   });
 

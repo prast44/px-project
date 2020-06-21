@@ -312,6 +312,8 @@ a.menu-nav{
 }
 
 
+
+
 .swiper-container-horizontal>.swiper-pagination-progressbar{
   top: auto;
     bottom: 0;
@@ -339,9 +341,27 @@ a.menu-nav{
   .cursor{
     display: none;
   }
+
+  
+
 }
 
 @media screen and (max-width: 480px) {
+
+
+  .astro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*transform: scale(1);*/
+    opacity: 1;
+    transition: all 2s;
+  }
+
+  .astro.disappear{
+    /*transform: scale(0.5);*/
+    opacity: 0
+  }
 
   .desktop-only{
     display: none;
