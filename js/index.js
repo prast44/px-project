@@ -4,6 +4,7 @@ var swiper = new Swiper('.swiper-container', {
         // type: 'progressbar',
 
       },
+      lazy: true,
       speed: 2000,
       initialSlide: 1,
       // freeMode: true,
