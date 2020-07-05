@@ -142,7 +142,8 @@ a{
   color: #9E00FF;
   font-weight: 800;
   transition: color .5s;
-  opacity: .75
+  opacity: .75;
+  font-size: 14px;
 }
 
 .main-nav a.active{
@@ -420,8 +421,8 @@ a.menu-nav{
     height: 30%;
   }
   .works-container h3 {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 36px;
+    line-height: 40px;
     margin-bottom: 15px;
     letter-spacing: -2px;
   }
@@ -473,7 +474,11 @@ a.menu-nav{
     letter-spacing: 0px;
     position: absolute;
     bottom: 80px;
-    /*display: none;*/
+    display: none;
+  }
+
+  .works-container .center-xy{
+    transform: none !important;
   }
 
   .main-nav a{
